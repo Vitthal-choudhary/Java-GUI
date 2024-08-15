@@ -11,6 +11,10 @@ public class labels
         JFrame root = new JFrame();
         root.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         root.setVisible(true);
+        
+        frame.setIconImage(Toolkit.getDefaultToolkit().getImage(getClass().getResource("Logo.png")));
+        // To set logo on top at jframe
+        
         root.setTitle("Coding Nigga");
         root.setSize(500, 500);
         //root.pack();      // put this after adding all components
